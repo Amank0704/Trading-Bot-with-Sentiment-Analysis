@@ -19,6 +19,7 @@ A full-stack trading analytics dashboard built using Python and Streamlit, combi
 ## 🧠 Tech Stack
 Python | Streamlit | Pandas | NumPy | NLP | Technical Analysis
 
+
 ## 🗂️ Core Modules
 indicators.py → Technical indicators
 
@@ -36,7 +37,8 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-🔮 Planned Enhancements
+
+### 🔮 Planned Enhancements
 
 Live price streaming (WebSockets)
 
@@ -47,4 +49,4 @@ FastAPI backend + React frontend
 Broker API integration (paper trading)
 
 
-⭐ If this project helped or inspired you, give it a star!
+#### ⭐ If this project helped or inspired you, give it a star!
