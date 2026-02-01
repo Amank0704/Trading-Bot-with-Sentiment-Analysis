@@ -31,14 +31,15 @@ scraper.py → Financial news scraping
 
 backtester.py → Strategy performance evaluation
 
-### ▶️ Run Locally
+
+## ▶️ Run Locally
 pip install -r requirements.txt
 
 streamlit run app.py
 
 
 
-### 🔮 Planned Enhancements
+## 🔮 Planned Enhancements
 
 Live price streaming (WebSockets)
 
