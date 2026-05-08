@@ -1,115 +1,53 @@
-📈 Trading Bot with Sentiment Analysis
+# 📈 Trading Bot with Sentiment Analysis
 
-An end-to-end AI-powered trading assistant built using Python + Streamlit that combines technical indicators, news sentiment analysis, strategy logic, and backtesting to help traders make informed decisions.
+A full-stack trading analytics dashboard built using Python and Streamlit, combining technical indicators, news sentiment analysis, and backtesting to generate intelligent trading signals.
 
-🚀 Features
+## 🚀 Key Highlights
 
-🔴 Live Trading Signals
+🔴 Live Trading Signals (BUY / SELL / HOLD)
 
-1.Real-time trading signals based on technical indicators
-2.Strategy-driven BUY / SELL / HOLD recommendations
+📊 Technical Indicators: RSI, MACD, Moving Averages
 
-📰 News & Sentiment Analysis
+📰 News Sentiment Analysis using NLP
 
-1.Scrapes financial news headlines
-2.Applies sentiment analysis to gauge market mood
-3.Helps avoid trades during negative sentiment phases
+🧪 Strategy Backtesting on historical data
 
-🧪 Strategy Backtesting
+⚙️ Custom Strategy Configuration
 
-1.Test trading strategies on historical data
-2.Evaluate performance before deploying live
-3.Generates metrics like:
-    Total returns
-    Win/Loss ratio
-    Drawdowns
+📈 Interactive Streamlit Dashboard
 
-⚙️ Custom Strategy Settings
+## 🧠 Tech Stack
+Python | Streamlit | Pandas | NumPy | NLP | Technical Analysis
 
-Adjustable parameters (indicators, thresholds, logic)
-Experiment with different strategies easily
 
-📊 Interactive Dashboard
+## 🗂️ Core Modules
+indicators.py → Technical indicators
 
-1.Built with Streamlit
-2.Multiple pages for clean navigation
-3.Visual insights for better decision-making
+strategy.py → Trading logic
 
-🗂️ Project Structure
-trading-bot-streamlit/
-│
-├── app.py                  # Main Streamlit entry point
-├── requirements.txt        # Project dependencies
-│
-├── assets/
-│   ├── banner.png          # UI banner
-│   └── logo.png            # App logo
-│
-├── modules/
-│   ├── scraper.py          # News scraping logic
-│   ├── sentiment.py        # Sentiment analysis module
-│   ├── indicators.py       # Technical indicators (RSI, MACD, etc.)
-│   ├── strategy.py         # Trading strategy logic
-│   └── backtester.py       # Strategy backtesting engine
-│
-├── pages/
-│   ├── Live_Signals.py     # Live trading signals UI
-│   ├── News_And_Sentiment.py # News & sentiment dashboard
-│   ├── Strategy_Settings.py  # Strategy configuration page
-│   └── Backtest.py         # Backtesting interface
+sentiment.py → News sentiment analysis
 
-🧠 Tech Stack
+scraper.py → Financial news scraping
 
-1.Python
-2.Streamlit – Interactive web dashboard
-3.Pandas / NumPy – Data handling
-4.Technical Analysis – RSI, MACD, Moving Averages
-5.NLP – News sentiment analysis
-6.Web Scraping – Financial news extraction
+backtester.py → Strategy performance evaluation
 
-⚙️ Installation & Setup
 
-1️⃣ Clone the Repository
-git clone https://github.com/Amank0704/Trading-Bot-with-Sentiment-Analysis
-cd Trading-Bot-with-Sentiment-Analysis
-
-2️⃣ Install Dependencies
+## ▶️ Run Locally
 pip install -r requirements.txt
 
-3️⃣ Run the Application
 streamlit run app.py
 
 
-📌 Use Cases
 
-1.Retail traders looking for signal confirmation
-2.Learning algorithmic trading concepts
-3.Practicing:
-    Technical Analysis
-    Strategy design
-    Backtesting
-    Sentiment-based filtering
-4.Portfolio project for FinTech / ML / Data roles
+## 🔮 Planned Enhancements
 
-🧪 Example Workflow
-1.Configure strategy parameters
-2.Check News Sentiment
-3.View Live Trading Signals
-4.Run Backtesting
-5.Improve strategy based on results
+Live price streaming (WebSockets)
 
-🔮 Future Improvements:
-✅ WebSocket-based live price streaming
-✅ Broker API integration (paper trading)
-✅ ML-based signal prediction
-✅ React frontend + FastAPI backend
-✅ Strategy optimization with Optuna
+ML-based signal prediction
 
-👨‍💻 Author
+FastAPI backend + React frontend
 
-Aman Kshirsagar
-B.Tech – AI & Data Science
-Focused on Machine Learning, FinTech & Backend Systems
+Broker API integration (paper trading)
 
-⭐ If you like this project
-Give it a ⭐ on GitHub — it really helps!
+
+#### ⭐ If this project helped or inspired you, give it a star!
