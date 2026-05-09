@@ -4,6 +4,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import pandas as pd
 import yfinance as yf
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 class SentimentAnalyzer:
     """Sentiment analyzer using FinBERT (financial BERT)"""

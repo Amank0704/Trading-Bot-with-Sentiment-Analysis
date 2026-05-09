@@ -13,3 +13,4 @@ torchvision>=0.15.0
 scikit-learn>=1.2.0
 sentiment
 scraper
+vaderSentiment
