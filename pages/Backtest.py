@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import yfinance as yf
 from modules.backtester import Backtester
 from modules.strategy import TradingStrategy
-from modules.sentiment import SentimentAnalyzer
+from modules.sentiment_analyzer import SentimentAnalyzer
 
 st.set_page_config(
     page_title="Strategy Backtesting",

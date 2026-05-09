@@ -4,8 +4,8 @@ import numpy as np
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import yfinance as yf
-from modules.scraper import NewsScraper
-from modules.sentiment import SentimentAnalyzer
+from modules.news_scraper import NewsScraper
+from modules.sentiment_analyzer import SentimentAnalyzer
 from modules.strategy import TradingStrategy
 
 st.set_page_config(

@@ -188,7 +188,7 @@ with tab1:
         
         if data:
             df = pd.DataFrame(data)
-            st.dataframe(df, use_container_width=True)
+            st.dataframe(df, width="stretch")
         else:
             st.warning("Could not fetch market data")
     else:
@@ -244,7 +244,7 @@ with tab2:
                     height=500
                 )
                 
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width="stretch")
                 
                 # Technical Indicators
                 st.subheader("Technical Indicators")

@@ -1,5 +1,5 @@
-from modules.scraper import fetch_prices, fetch_news
-from modules.sentiment import analyze_sentiment
+from news_scraper import fetch_prices, fetch_news
+from modules.sentiment_analyzer import analyze_sentiment
 from modules.indicators import add_indicators
 from modules.backtester import run_backtest
 

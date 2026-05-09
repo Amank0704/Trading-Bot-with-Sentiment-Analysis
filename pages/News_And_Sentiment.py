@@ -7,13 +7,18 @@ from datetime import datetime, timedelta
 import sys
 import os
 
+
+from modules import sentiment_analyzer
+print(sentiment_analyzer.__file__)
+
 # Add modules to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'modules'))
 
 # Import modules
 try:
-    from scraper import NewsScraper
-    from sentiment import SentimentAnalyzer
+    
+    from news_scraper import NewsScraper
+    from sentiment_analyzer import SentimentAnalyzer
 except ImportError as e:
     st.error(f"Error importing modules: {e}")
     # Create fallback classes
